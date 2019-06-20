@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import catalog.models.*;
-
+import catalog.Inventory;
+import catalog.InventoryRepo;
 /**
  * REST Controller to manage Inventory database
  */
