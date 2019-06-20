@@ -42,7 +42,7 @@ public class CatalogController {
                 {
                 	return ResponseEntity.notFound().build();
                 }
-                return ReponseEntity.ok(itemsRepo.findOne(id));
+                return ResponseEntity.ok(itemsRepo.findOne(id));
                 //return ResponseEntity.ok("{\"id\":1,\"name\":\"one\"}");
     }
 
