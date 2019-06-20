@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 @Table(name="items")
 public class Inventory{
 	@Id
-	@GeneratedValue(strategy=Generation.Type.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
 	
 	@NotNull
