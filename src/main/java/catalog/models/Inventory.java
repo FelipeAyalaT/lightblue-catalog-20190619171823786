@@ -50,13 +50,13 @@ public class Inventory{
 	{
 		StringBuilder sb =new StringBuilder();
 		sb.append("{\n");
-		sb.append(String.format("\t\"id\": %s,\n",this.id);
-		sb.append(String.format("\t\"name\": %s,\n",this.name);
-		sb.append(String.format("\t\"description\": %s,\n",this.description);
-		sb.append(String.format("\t\"price\": %s,\n",this.price);
-		sb.append(String.format("\t\"img_alt\": %s,\n",this.img_alt);
-		sb.append(String.format("\t\"img\": %s,\n",this.img);
-		sb.append(String.format("\t\"stock\": %s,\n",this.stock);
+		sb.append(String.format("\t\"id\": %s,\n",this.id));
+		sb.append(String.format("\t\"name\": %s,\n",this.name));
+		sb.append(String.format("\t\"description\": %s,\n",this.description));
+		sb.append(String.format("\t\"price\": %s,\n",this.price));
+		sb.append(String.format("\t\"img_alt\": %s,\n",this.img_alt));
+		sb.append(String.format("\t\"img\": %s,\n",this.img));
+		sb.append(String.format("\t\"stock\": %s,\n",this.stock));
 		sb.append("}");
 		return sb.toString();
 	}
