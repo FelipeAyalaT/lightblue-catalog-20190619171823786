@@ -31,6 +31,62 @@ public class Inventory{
 	@NotNull
 	private int stock;
 	
+	 public long getId() {
+    return id;
+  }
+
+  public void setId(long value) {
+    this.id = value;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+  
+  public void setDescription(String value) {
+    this.description = value;
+  }
+  
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String value) {
+    this.name = value;
+  }
+
+  public int getPrice() {
+    return price;
+  }
+
+  public void setPrice(int value) {
+    this.price = value;
+  }
+  
+  public String getImg() {
+	  return img;
+  }
+  
+  public void setImg(String img) {
+	  this.img = img;
+  }
+
+  public String getImgAlt() {
+    return img_alt;
+  }
+  
+  public void setImgAlt(String img_alt) {
+    this.img_alt = img_alt;
+  }
+
+  public int getStock() {
+    return stock;
+  }
+
+  public void setStock(int value) {
+    this.stock = value;
+  }
+  
 	public Inventory () {};
 	
 	public Inventory (long id) {
