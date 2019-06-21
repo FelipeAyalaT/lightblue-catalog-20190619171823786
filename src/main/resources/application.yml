@@ -5,7 +5,7 @@ server:
 spring:
  datasource:
   driverClassName: com.mysql.jdbc.Driver
-  url: jdbc:mysql://cap-sg-prd-4.securegateway.appdomain.cloud.com:19611/inventorydb
+  url: jdbc:mysql://cap-sg-prd-4.securegateway.appdomain.cloud:19611/inventorydb
   username: dbuser
   password: Pass4dbUs3R
  jpa:
